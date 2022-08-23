@@ -1,0 +1,9 @@
+steps:
+  - name: "gcr.io/cloud-builders/docker"
+    args: ["build", "--tag=gcr.io/$PROJECT_ID/auto-vm-deploy", "./src"]
+
+  # a simple "ls" to force the read of ssh_connection.sh file
+  - name: "gcr.io/$PROJECT_ID/auto-vm-deploy"
+    args: ["ls"]
+
+images: ["gcr.io/$PROJECT_ID/auto-vm-deploy"]
