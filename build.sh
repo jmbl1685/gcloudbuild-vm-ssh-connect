@@ -1,1 +1,1 @@
-gcloud builds submit --region=us-west2 --project=intense-inferno-3535 --config ./src/cloudbuild.yaml
+gcloud builds submit --region=us-west2 --project={your_project} --config ./src/cloudbuild.yaml
