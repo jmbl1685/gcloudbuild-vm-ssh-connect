@@ -1,5 +1,9 @@
 # Virtual Machine connect using SSH through Google Cloud Build (CI/CD)
 
+
+#### NOTE: In this sample I'm using my own data (btw, sham info/data in this public repo) you need update to use your data (right ip, user, private key, google project name, etc)
+
+
 just need run this file:
 
 Windows:
